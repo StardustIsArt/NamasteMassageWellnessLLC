@@ -1,7 +1,11 @@
-body {
+html {
   font-family: "Nerko One", cursive;
   font-family: "Neucha", cursive;
   background-image: url("Images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+footer {
+  font: "Nerko One";
 }
