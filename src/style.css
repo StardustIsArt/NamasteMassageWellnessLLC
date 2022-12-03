@@ -17,7 +17,9 @@ body {
 }
 
 .namasteLogo {
-  max-width: 145;
+  width: 10px;
+  display: block;
+  size: 300px;
 }
 
 footer {
