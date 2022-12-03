@@ -2,10 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="This is Samantha Yocius's porfolio for the multiple projects that she has created throughout her web development bootcamps"
-    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -18,19 +14,15 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="src/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Baloo+2:wght@400;500;600;700;800&family=Gloria+Hallelujah&family=Josefin+Slab:ital@0;1&family=Nerko+One&family=Neucha&display=swap"
-      rel="stylesheet"
-    />
-
     <title>Welcome to Namaste ♾</title>
+    <meta
+      name="description"
+      content="This is Samantha Yocius's porfolio for the multiple projects that she has created throughout her web development bootcamps"
+    />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
   </head>
-  <body class="main">
+
+  <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Namaste M&W</a>
@@ -60,17 +52,61 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <h1>Namaste Massage & Wellness, LLC</h1>
-      <div class="head-section">
-        <img
-          id="namasteLogo"
-          src="images/Namaste Logo.png"
-          alt="Namaste Logo"
-        />
+    <div class="main">
+      <div class="row">
+        <div class="col-4">
+          <h1>Namaste Massage & Wellness, LLC</h1>
+
+          <!-- 
+            <img
+            id="namasteLogo"
+            src="images/Namaste Logo.png"
+            alt="Namaste Logo"
+          /> -->
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/Jodi Current.jpg"
+                id="jodiPic"
+                class="img-fluid rounded-start"
+                alt="Jodi Sauld-Draper"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Jodi Sauld-Draper</h5>
+                <p class="card-text">
+                  Licensed Massage Therapist, #__ <br />
+                  Owner
+                </p>
+                <button type="button" class="btn btn-info" href="about.html">
+                  Contact Jodi
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <p>Where to find Services and pricing</p>
+      <div class="prices-section">
+        <p>Where to find Services and pricing</p>
+        <div class="row">
+          <div class="col-6 m-4">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="images/JodiNamasteRoom.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Services and Pricing</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
