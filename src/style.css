@@ -1,9 +1,23 @@
 html {
-  font-family: "Nerko One", cursive;
-  font-family: "Neucha", cursive;
+  font-family: "Amatic SC", cursive, "Gloria Hallelujah", cursive,
+    "Josefin Slab", serif, "Nerko One", cursive, "Neucha", cursive;
+}
+
+body {
   background-image: url("Images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.head-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: auto;
+}
+
+.namasteLogo {
+  max-width: 145;
 }
 
 footer {
