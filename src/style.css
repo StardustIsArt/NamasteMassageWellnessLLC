@@ -2,24 +2,34 @@ html {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+.navbar {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
 h1 {
   display: block;
   margin: 20px 40px;
 }
 
-div.main {
-  background-image: url(images/background.jpg);
-  background-size: 125%;
+.carousel {
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex: auto;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  position: absolute;
+  opacity: 0.85;
 }
 
-namasteLogo {
-  width: 10px;
-  display: block;
+.carousel-item {
+  max-height: 720px;
+}
+
+.main-info-carousel {
+  position: relative;
+  top: 50px;
 }
 
 .jodiPic {
@@ -27,6 +37,10 @@ namasteLogo {
   height: auto;
   margin: 30px;
   border-radius: 30px;
+}
+
+.prices-section {
+  position: relative;
 }
 
 footer {

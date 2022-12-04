@@ -14,10 +14,11 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+
     <title>Welcome to Namaste ♾</title>
     <meta
       name="description"
-      content="This is Samantha Yocius's porfolio for the multiple projects that she has created throughout her web development bootcamps"
+      content="This is the main landing page for the business of Namaste Massage & Wellness, LLC."
     />
     <link rel="stylesheet" type="text/css" href="src/style.css" />
   </head>
@@ -52,17 +53,40 @@
         </div>
       </div>
     </nav>
-    <div class="main">
-      <div class="row">
+    <div class="top">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/JodiNamasteRoom.jpg"
+              class="d-block w-100"
+              alt="Namaste Room"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Cherokee River_3370.jpg"
+              class="d-block w-100"
+              alt="Jodi's calm area"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/background.jpg"
+              class="d-block w-100"
+              alt="infinity graphic"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="main-info-carousel row">
         <div class="col-4">
           <h1>Namaste Massage & Wellness, LLC</h1>
-
-          <!-- 
-            <img
-            id="namasteLogo"
-            src="images/Namaste Logo.png"
-            alt="Namaste Logo"
-          /> -->
         </div>
         <div class="card mb-3" style="max-width: 540px">
           <div class="row g-0">
@@ -82,63 +106,63 @@
                   Owner
                 </p>
                 <button type="button" class="btn btn-info" href="about.html">
-                  Contact Jodi
+                  About Jodi and Namaste
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="prices-section">
-        <p>Where to find Services and pricing</p>
-        <div class="row">
-          <div class="col-5 m-2">
-            <div class="card mb-3">
-              <img
-                class="card-img-top"
-                src="images/JodiNamasteRoom.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Services and Pricing</h5>
-              </div>
+    <div class="container-fluid prices-section">
+      <p>Where to find Services and pricing</p>
+      <div class="row">
+        <div class="col-5 m-2">
+          <div class="card mb-3">
+            <img
+              class="card-img-top"
+              src="images/JodiNamasteRoom.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Services and Pricing</h5>
             </div>
           </div>
-          <div class="col-5 m-2">
-            <div class="card mb-3">
-              <img
-                class="card-img-top"
-                src="images/JodiNamasteRoom.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Services and Pricing</h5>
-              </div>
+        </div>
+        <div class="col-5 m-2">
+          <div class="card mb-3">
+            <img
+              class="card-img-top"
+              src="images/JodiNamasteRoom.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Services and Pricing</h5>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="location-section">
-        <div class="card border-info mb-3 g-0" style="max-width: 1040px">
-          <div class="card-header">Location</div>
-          <div class="card-body g-0">
-            <div class="col-md-4">
-              <h5 class="card-address">
-                Address: 100 E. Spruce St., <br />
-                Abbotsford, Wisconsin 54405 <br />
-                Phone: (715)216.6509
-              </h5>
-            </div>
-            <div class="col-md-4">
-              <img
-                src="images/Cherokee River_3370.jpg"
-                alt="Location of business"
-                style="max-width: 25rem; border-radius: 24px"
-                functionGoesHere
-              />
-            </div>
+    <div class="container-fluid location-section">
+      <div class="card border-info mb-3 g-0" style="max-width: 1040px">
+        <div class="card-header">Location</div>
+        <div class="card-body g-0">
+          <div class="col-md-4">
+            <h5 class="card-address">
+              Address: 100 E. Spruce St., <br />
+              Abbotsford, Wisconsin 54405 <br />
+              Phone: (715)216.6509
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/Cherokee River_3370.jpg"
+              alt="Location of business"
+              style="max-width: 25rem; border-radius: 24px"
+              functionGoesHere
+            />
           </div>
         </div>
       </div>
@@ -166,5 +190,10 @@
         >.
       </p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
