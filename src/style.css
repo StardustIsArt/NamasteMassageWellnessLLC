@@ -1,12 +1,12 @@
-html {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .navbar {
   display: block;
   position: sticky;
   top: 0;
-  z-index: 9999;
+  z-index: 1;
 }
 
 h1 {
@@ -25,6 +25,7 @@ h1 {
 
 .carousel-item {
   max-height: 720px;
+  display: flex;
 }
 
 .main-info-carousel {
@@ -32,15 +33,26 @@ h1 {
   top: 50px;
 }
 
+.card-body-text {
+  color: #fff;
+  font-weight: 250px;
+  font-size: 20px;
+}
+
 .jodiPic {
   max-width: 15%;
   height: auto;
   margin: 30px;
-  border-radius: 30px;
+  border-radius: 35px;
 }
 
-.prices-section {
-  position: relative;
+section.prices-detail {
+  position: static;
+  margin: 0;
+  padding-top: 500px;
+  max-width: 1300px;
+  padding-bottom: 70px;
+  align-items: center;
 }
 
 footer {
