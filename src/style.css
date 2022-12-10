@@ -24,7 +24,7 @@ h1 {
 }
 
 .carousel-item {
-  max-height: 720px;
+  max-height: 640px;
   display: flex;
 }
 
