@@ -16,7 +16,6 @@ h1 {
 
 .carousel {
   margin: 0 auto;
-  background-color: #fff;
   background-repeat: no-repeat;
   background-size: 350px;
   position: absolute;
@@ -31,19 +30,26 @@ h1 {
 .main-info-carousel {
   position: relative;
   top: 50px;
+  display: flex;
 }
 
 .card-body-text {
+  margin: 20px;
+  margin-top: 40px;
   color: #fff;
   font-weight: 250px;
   font-size: 20px;
 }
 
 .jodiPic {
-  max-width: 15%;
+  max-width: 90%;
   height: auto;
   margin: 30px;
-  border-radius: 35px;
+  border-radius: 10px;
+}
+
+.flex-item {
+  fl
 }
 
 section.prices-detail {
